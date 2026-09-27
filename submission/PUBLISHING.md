@@ -14,7 +14,7 @@ The public repository contains a Claude Code plugin and self-hosted marketplace.
 
 ## Official MCP Registry
 
-Keep the existing name `io.github.ChristopherZYX/vultax-research`. Update the semantic version and remote URL in `server.json`, then run the repository's manual **Publish Vultax to MCP Registry** GitHub workflow. It uses a checksum-verified official publisher and GitHub OIDC. Read back the exact new version from the public registry after the workflow succeeds.
+Use the organization-owned name `io.github.Vultax/vultax-research`. Update the semantic version and remote URL in `server.json`, then run the repository's manual **Publish Vultax to MCP Registry** GitHub workflow. It uses a checksum-verified official publisher and GitHub OIDC. Read back the exact new version from the public registry after the workflow succeeds.
 
 ## Gemini gallery
 

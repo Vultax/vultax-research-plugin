@@ -2,7 +2,7 @@
 
 Bring a Polymarket link to your assistant. Inspect the exact market and its resolution rules, calculate explicit price scenarios, and support your analysis with published Vultax research.
 
-[Try the public demo](https://vultax.com/vi-mcp) · [Download v1.1.0](https://github.com/ChristopherZYX/vultax-research-plugin/releases/tag/v1.1.0) · [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.ChristopherZYX%2Fvultax-research/versions/latest)
+[Try the public demo](https://vultax.com/vi-mcp) · [Download v1.1.0](https://github.com/Vultax/vultax-research-plugin/releases/tag/v1.1.0) · [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.ChristopherZYX%2Fvultax-research/versions/latest)
 
 **MCP endpoint:** `https://vultax.com/vi-mcp` · Streamable HTTP · No API key
 
@@ -35,7 +35,7 @@ Where your account supports custom MCP connectors, add **Vi Assistant by Vultax*
 ### Claude Code marketplace
 
 ```text
-/plugin marketplace add ChristopherZYX/vultax-research-plugin
+/plugin marketplace add Vultax/vultax-research-plugin
 /plugin install vultax-research@vultax
 ```
 
@@ -54,7 +54,7 @@ Download `vultax-vi-1.1.0.mcpb` from the release and open it in a compatible des
 ### Gemini CLI extension
 
 ```sh
-gemini extensions install https://github.com/ChristopherZYX/vultax-research-plugin --ref=v1.1.0
+gemini extensions install https://github.com/Vultax/vultax-research-plugin --ref=v1.1.0
 ```
 
 The root `gemini-extension.json` connects the same tools and includes `GEMINI.md` guidance. Gallery discovery requires the `gemini-cli-extension` topic and Google's crawler validation. [Official release instructions](https://geminicli.com/docs/extensions/releasing/).

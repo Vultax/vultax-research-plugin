@@ -1,12 +1,12 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.ChristopherZYX/vultax-research",
+  "name": "io.github.Vultax/vultax-research",
   "title": "Vi Assistant by Vultax",
   "description": "Vi market evidence, hypothetical price scenarios and published Vultax research.",
   "version": "1.1.0",
   "websiteUrl": "https://vultax.com/vi-mcp",
   "repository": {
-    "url": "https://github.com/ChristopherZYX/vultax-research-plugin",
+    "url": "https://github.com/Vultax/vultax-research-plugin",
     "source": "github"
   },
   "remotes": [{ "type": "streamable-http", "url": "https://vultax.com/vi-mcp" }]

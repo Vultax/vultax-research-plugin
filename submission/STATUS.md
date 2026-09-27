@@ -6,8 +6,8 @@ Checked 13 September 2026 (Europe/Tallinn).
 | --- | --- |
 | Public demo and HTTP MCP | Live at https://vultax.com/vi-mcp. Ten end-to-end checks passed, covering all five tools, market identity, missingness, scenarios and research provenance. |
 | Original research MCP | The three-tool public service remains at https://vultax.com/mcp. |
-| GitHub repository | Public at https://github.com/ChristopherZYX/vultax-research-plugin. [Version 1.1.0 released](https://github.com/ChristopherZYX/vultax-research-plugin/releases/tag/v1.1.0); anonymous MCPB download SHA-256 matches the original bundle. |
-| Official MCP Registry | Version 1.1.0 is active as `io.github.ChristopherZYX/vultax-research`, titled Vi Assistant by Vultax, pointing to https://vultax.com/vi-mcp. [Publication run](https://github.com/ChristopherZYX/vultax-research-plugin/actions/runs/34724783854). |
+| GitHub repository | Public at https://github.com/Vultax/vultax-research-plugin. [Version 1.1.0 released](https://github.com/Vultax/vultax-research-plugin/releases/tag/v1.1.0); anonymous MCPB download SHA-256 matches the original bundle. |
+| Official MCP Registry | Version 1.1.0 is active as `io.github.ChristopherZYX/vultax-research`, titled Vi Assistant by Vultax, pointing to https://vultax.com/vi-mcp. [Publication run](https://github.com/Vultax/vultax-research-plugin/actions/runs/34724783854). |
 | Codex | Vi 1.1 is installed and enabled in the personal marketplace. Start a new task to load updated tools. |
 | Claude Code | Native plugin and self-hosted marketplace published. No curated Anthropic listing or client installation claimed. |
 | Claude Desktop | Self-contained MCPB published; official manifest validation passed. The anonymously downloaded bundle was extracted and passed stdio initialization, five-tool discovery and scenario arithmetic with the official MCP SDK. |
