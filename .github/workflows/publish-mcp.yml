@@ -2,6 +2,15 @@ name: Publish Vultax to MCP Registry
 
 on:
   workflow_dispatch:
+    inputs:
+      release:
+        description: Registry metadata to publish
+        required: true
+        default: vi-assistant
+        type: choice
+        options:
+          - vi-assistant
+          - research-legacy
 
 permissions:
   contents: read
@@ -33,4 +42,11 @@ jobs:
         run: ./mcp-publisher login github-oidc
 
       - name: Publish remote server metadata
-        run: ./mcp-publisher publish
+        env:
+          RELEASE: ${{ inputs.release }}
+        run: |
+          if [ "$RELEASE" = "research-legacy" ]; then
+            ./mcp-publisher publish submission/server-1.0.0.json
+          else
+            ./mcp-publisher publish
+          fi
