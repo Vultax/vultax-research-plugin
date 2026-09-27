@@ -2,7 +2,7 @@
 
 Bring a Polymarket link to your assistant. Inspect the exact market and its resolution rules, calculate explicit price scenarios, and support your analysis with published Vultax research.
 
-[Try the public demo](https://vultax.com/vi-mcp) · [Download v1.1.0](https://github.com/Vultax/vultax-research-plugin/releases/tag/v1.1.0) · [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.ChristopherZYX%2Fvultax-research/versions/latest)
+[Try the public demo](https://vultax.com/vi-mcp) · [Download v1.1.0](https://github.com/Vultax/vultax-research-plugin/releases/tag/v1.1.0) · [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.Vultax%2Fvultax-research/versions/latest)
 
 **MCP endpoint:** `https://vultax.com/vi-mcp` · Streamable HTTP · No API key
 
